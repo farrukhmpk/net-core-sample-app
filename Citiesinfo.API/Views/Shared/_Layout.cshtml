@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Farrukh Mirza" />
+    
+    <title>Cities Restful App - @ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap-theme.css" />
+    <link rel="stylesheet" href="~/lib/bootswatch/darkly/bootstrap.css" />
+    <link rel="stylesheet" href="~/lib/datatable/media/css/dataTables.bootstrap.css" />
+</head>
+<body>
+    <div class="container">
+        @RenderBody()
+    </div>
+    <!-- script type="text/javascript" src="~/lib/jquery/dist/jquery.js"></ script -->
+    <script type="text/javascript" src="~/lib/jquery-1.11.1/dist/jquery.js"></script>
+    <script type="text/javascript" src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script type="text/javascript" src="~/lib/datatable/media/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" src="~/lib/datatable/media/js/dataTables.bootstrap.js"></script>
+    @RenderSection("scripts", false)
+</body>
+</html>
