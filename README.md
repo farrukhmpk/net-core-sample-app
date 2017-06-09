@@ -9,7 +9,7 @@ A very simple cross-platform .Net Core RESTful App and Web API (REST) tested on 
 This application can work on embedded Kestrel engine on port 80 (HTTP). The configuration can very easily be loaded from a configurations file.
 Please note that the project does not have IIS Integration as the target was to host it on Linux as well as on Windows.
 
-WEB UI: http://localhost/   
+WEB UI: http://{host}/   
 WEB API URI: http://{host}/api/cities   
 
 The API provides a basic RESTful CRUD (without the update part) with in-memory data and JSON representation as data exchange format of choice.
