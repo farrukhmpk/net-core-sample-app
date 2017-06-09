@@ -21,7 +21,8 @@ When published from Visual Studio it creates the deployables inside bin/Release/
 	a.	On Linux: <code>$ sudo dotnet Citiesinfo.API.dll </code>, where sudo provides root privileges required by Kestrel server.   
 
 
-This project only reflects the front-end architecture and not the N-tier architecture going all the way to the database.
+This project only reflects the front-end architecture and not the N-tier architecture going all the way to the database.    
+This project also provides a basis for writing cross-platform microservice in .Net Core.    
 
 Tools
 ========
