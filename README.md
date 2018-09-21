@@ -36,6 +36,16 @@ Licenses
 
 .Net core platform framework is provided under Apache License
 
+Docker
+======
+
+To build and push docker image, it requires **Docker for Windows** on Windows 10 or **docker** and **docker-compose** on Linux environment, in addition to dotnet core framework. 
+
+Docker image is available at [Docker Hub](https://hub.docker.com/r/farrukhmpk/citiesinfo.api/) 
+
+<code>docker pull farrukhmpk/citiesinfo.api</code>
+
+
 Further Help
 ========
 
