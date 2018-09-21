@@ -45,7 +45,7 @@ namespace Citiesinfo.API
                 app.UseDeveloperExceptionPage();
             } else
             {
-                app.UseExceptionHandler();
+                app.UseExceptionHandler("/error");
             }
             app.UseStaticFiles();
             app.UseMvc();
