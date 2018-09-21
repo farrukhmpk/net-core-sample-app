@@ -2,7 +2,7 @@ version: '3.4'
 
 services:
   citiesinfo.api:
-    image: ${DOCKER_REGISTRY}citiesinfoapi
+    image: farrukhmpk/citiesinfo.api:latest
     build:
       context: .
       dockerfile: Citiesinfo.API/Dockerfile
