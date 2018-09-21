@@ -20,5 +20,5 @@ rem OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN TH
 rem SOFTWARE.
 rem
 
-sudo docker-compose build
+docker-compose build
 

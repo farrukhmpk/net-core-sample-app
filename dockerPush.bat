@@ -20,6 +20,6 @@ rem OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN TH
 rem SOFTWARE.
 rem
 
-sudo docker login
-sudo docker push farrukhmpk/citiesinfo.api:latest
+docker login
+docker push farrukhmpk/citiesinfo.api:latest
 
